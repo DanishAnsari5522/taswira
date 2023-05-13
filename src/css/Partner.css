@@ -1,0 +1,136 @@
+.dan1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://www.weddingreels.in/wp-content/uploads/2022/01/pre-wedding1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.ourtrustedcomp {
+    background-color: rgb(44, 43, 43);
+    padding: 50px;
+}
+
+.ourtrusted {
+    color: rgb(164, 116, 25);
+    font-size: 30px;
+    text-align: center;
+}
+
+.weproud {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.ourtrustedimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ourimg {
+    width: 100px;
+    height: 80px;
+}
+
+.ourimg1 {
+    width: 130px;
+    height: 110px;
+}
+
+.whatwedocomp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatwedoimg {
+    width: 45%;
+    height: 100%;
+}
+
+.whatwedo {
+    background-color: black;
+    width: 55%;
+    padding: 39px;
+}
+
+.whatweimg {
+    width: 100%;
+    height: 100%;
+}
+
+.article {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.header {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.header1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
+
+
+.dan2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://www.weddingreels.in/wp-content/uploads/2022/01/pre-wedding3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+
+}
+
+
+@media screen and (max-width:500px) {
+    .ourtrustedcomp {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .ourtrustedimg {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .ourimg {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .whatwedocomp {
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .whatwedoimg {
+        width: 100%;
+    }
+
+    .whatwedo {
+        background-color: black;
+        width: 100%;
+        padding: 40px;
+    }
+
+}
