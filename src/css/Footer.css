@@ -1,0 +1,14 @@
+.footercomp{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color:rgb(44, 43, 43);
+    padding: 20px 40px;
+}
+
+.aboutcomp{
+width: 30%;
+color: white;
+font-size: 15px;
+ font-family: 'Courier New', Courier, monospace;
+}

@@ -1,11 +1,10 @@
 import React from 'react'
 import '../../css/Partner.css'
-import bgimage2 from '../../assets/logo.jpg'
+import Footer from '../footer/Index';
 
 function Partner() {
     return (
         <>
-            {/* <div>Partner Page</div> */}
             <div className='dan1'>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
                     <div style={{ width: '500px', textAlign: 'center' }}>
@@ -55,6 +54,7 @@ function Partner() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

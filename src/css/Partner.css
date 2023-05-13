@@ -4,7 +4,6 @@
     background-size: cover;
     height: 100vh;
     background-position: center;
-
 }
 
 .ourtrustedcomp {
@@ -93,11 +92,17 @@
     background-size: cover;
     height: 90vh;
     background-position: center;
-
 }
 
 
 @media screen and (max-width:500px) {
+    .dan1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://www.weddingreels.in/wp-content/uploads/2022/01/pre-wedding1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        background-position: center;
+    }
     .ourtrustedcomp {
         padding-left: 10px;
         padding-right: 10px;
@@ -132,5 +137,14 @@
         width: 100%;
         padding: 40px;
     }
+
+    .dan2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(https://www.weddingreels.in/wp-content/uploads/2022/01/pre-wedding3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        background-position: center;
+    }
+    
 
 }
